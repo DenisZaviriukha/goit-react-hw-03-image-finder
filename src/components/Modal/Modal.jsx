@@ -29,6 +29,7 @@ export const modalka = (imgModal) => {
     })
 };
 
+
 // modalka.propTypes = {
 //     imgModal: PropTypes.string.isRequired
 // }
