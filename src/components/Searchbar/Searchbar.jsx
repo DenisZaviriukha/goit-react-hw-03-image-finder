@@ -38,12 +38,3 @@ export const Searchbar = ({ onSearch, addImages, searchValue, spinnerStarts, spi
         </Formik>
     );
 };
-
-
-// Searchbar.propTypes = {
-//     onSearch: PropTypes,
-//     addImages: PropTypes,
-//     searchValue: PropTypes.string.isRequired,
-//     spinnerStarts: PropTypes.function.isRequired,
-//     spinnerFinishes: PropTypes,
-// }

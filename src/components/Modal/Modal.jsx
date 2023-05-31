@@ -1,11 +1,7 @@
-// import * as basicLightbox from 'basiclightbox';
-import PropTypes from 'prop-types';
-
-
 const basicLightbox = require('basiclightbox')
 
 export const modalka = (imgModal) => {
-  const instance = basicLightbox.create(`
+  basicLightbox.create(`
     <img width="1000" src="${imgModal}">
   `).show();
     document.body.style.overflow = 'hidden';
@@ -28,8 +24,3 @@ export const modalka = (imgModal) => {
         }
     })
 };
-
-
-// modalka.propTypes = {
-//     imgModal: PropTypes.string.isRequired
-// }

@@ -20,7 +20,7 @@ export class App extends Component {
   }
 
 arrayOfImages = () => {
-  const { searchValue, currentPage, imagesArray } = this.state;
+  const { searchValue, currentPage } = this.state;
   fetchData(searchValue, currentPage)
     .then((array) => {
       if (currentPage === 1) {
@@ -40,7 +40,7 @@ arrayOfImages = () => {
       this.setState({ loading: false })
     });
 };
-  updateImagesArray = (array, oldsearch) => {
+  updateImagesArray = (array) => {
 
     if (this.state.currentPage === 1) {
             console.log('qq')
